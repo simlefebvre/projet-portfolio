@@ -1,0 +1,9 @@
+{
+    "nomDuProjet": "Projet1",
+    "language" : "Java",
+    "contexte" : "Cours",
+    "nombreParticipants" : "2",
+    "support" : "Eclipse",
+    "date" : "01/01/2020",
+    "desc" : "<p> Hello World </p><br><br><h1>Je suis un titre</h1><br><br><p>Je suis un paragraphe</p>"
+}

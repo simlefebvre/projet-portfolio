@@ -1,0 +1,97 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #000000; */
+    /* color: #ffffff; */
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+
+#retour
+{
+    align-items: center;
+    text-decoration: underline;
+    color: #b8b4ff;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+#Titre
+{
+    display: flex;
+    margin-left: 0.5em;
+    justify-content: space-between;
+}
+
+#corps
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+#corps > div
+{
+    padding: 0.5em;
+}
+
+#menu ul
+{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    width: 125px;
+    font-family: Consolas, monospace;
+    font-size: 0.5em;
+    box-shadow: 0px 0px 10px #000000;
+    background-color: #ffe2b4;
+}   
+
+#footer img
+{
+    width: 45px;
+}
+
+#footer
+{
+    display:
+    flex;
+    justify-content: space-evenly;
+}
+
+
+#menu li
+{
+    margin-top: 15px;
+}
+
+.descProjet
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.descProjet > p
+{
+    margin-left: 1em;
+}
+
+.projet
+{
+    display:flex;
+    flex-direction: column;
+}    
+.imageProjet
+{
+    width: 20%;
+    height: auto;
+}
