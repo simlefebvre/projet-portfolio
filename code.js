@@ -1,14 +1,3 @@
-//const elt = document.getElementById('test');
-//elt.addEventListener('click', function() {
-//    localStorage.setItem('nomProjet', 'Projet1');
-//    window.open('./projet.html','_self');
-//    });
-//
-//const elt2 = document.getElementById('test2');
-//elt2.addEventListener('click', function() {
-//    localStorage.setItem('nomProjet', 'Projet2');
-//    window.open('./projet.html','_self');
-//    });
 
 function initialisation(){
     fetch('./listeDesProjet.json')
@@ -19,7 +8,6 @@ function initialisation(){
     .then(function(value) {
         let listeDesProjets = value.data;
         for (let projet of listeDesProjets) {
-            //let li = document.createElement('button');
             let div = document.createElement('div');
             let divTitre = document.createElement('div');
             let divDesc = document.createElement('div');

@@ -3,12 +3,12 @@
         {
             "nom" : "Projet1"
             ,"desc" : "Voici la description du Projet1"
-            ,"image" : "R.jpg"
+            ,"image" : "image/R.jpg"
         }
         ,{
             "nom" : "Projet2"
             ,"desc" : "Voila la description du Projet2"
-            ,"image" : "OIP.jpg"
+            ,"image" : "image/OIP.jpg"
         }
     ]
 }
