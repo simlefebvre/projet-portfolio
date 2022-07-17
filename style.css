@@ -17,6 +17,7 @@ body
     padding: 0.5em;
 }
 
+
 #retour
 {
     align-items: center;
@@ -48,10 +49,13 @@ body
 #menu ul
 {
     list-style-type: none;
-    padding-inline-start: 0px;
-    width: 125px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-inline-start: 5px;
+    width: auto;
+    padding-right: 5px;
     font-family: Consolas, monospace;
-    font-size: 0.5em;
+    font-size: 0.6em;
     box-shadow: 0px 0px 10px #000000;
     background-color: #ffe2b4;
 }   
