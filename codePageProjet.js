@@ -1,6 +1,5 @@
 let dataProjet;
-function initialisation(){
-    const nomProjet = localStorage.getItem('nomProjet');
+function initialisation(nomProjet){
     document.title = nomProjet;
     listElt = document.getElementsByClassName('titre');
     for (let elt of listElt) {
@@ -23,5 +22,5 @@ function initialisation(){
         document.getElementById('explication').children[0].innerHTML = dataProjet.desc;
     });   
 }
-
-initialisation();
+const queryString = location.search.substring(1);
+initialisation(queryString);

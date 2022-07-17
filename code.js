@@ -42,8 +42,7 @@ function initialisation(){
             div.appendChild(divDesc);
 
             div.addEventListener('click', function(e) {
-                localStorage.setItem('nomProjet', e.target.id.substring(0, e.target.id.indexOf('|')));
-                window.open('./projet.html','_self');
+                window.open(`./projet.html?${e.target.id.substring(0, e.target.id.indexOf('|'))}`,'_self');
             }
             );
             document.getElementById('liste').appendChild(div);
