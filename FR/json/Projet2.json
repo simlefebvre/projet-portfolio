@@ -1,9 +1,0 @@
-{
-    "nomDuProjet": "Projet2",
-    "language" : "python",
-    "contexte" : "personnel",
-    "nombreParticipants" : "1",
-    "support" : "VSCode",
-    "date" : "01/01/2022",
-    "desc" : "<p> Hello World 2 </p><br><br><h1>Je suis un titre</h1><br><br><p>Je suis un paragraphe</p>"
-}

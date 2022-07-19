@@ -1,9 +1,0 @@
-{
-    "nomDuProjet": "Project1",
-    "language" : "Java",
-    "contexte" : "School",
-    "nombreParticipants" : "2",
-    "support" : "Eclipse",
-    "date" : "01/01/2020",
-    "desc" : "<p> Hello World </p><br><br><h1>I am a title</h1><br><br><p>I am a paragraph</p>"
-}
