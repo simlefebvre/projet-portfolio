@@ -1,0 +1,24 @@
+{
+    "data" : [
+        {
+            "nom" : "Projet1"
+            ,"desc" : "Voici la description du Projet1"
+            ,"image" : "../image/R.jpg"
+        }
+        ,{
+            "nom" : "Projet2"
+            ,"desc" : "Voila la description du Projet2"
+            ,"image" : "../image/OIP.jpg"
+        },
+        {
+            "nom" : "Projet3"
+            ,"desc" : "Voila la description du Projet 3"
+            ,"image" : "../image/P.jpg"
+        }
+        ,{
+            "nom" : "Evaluation d'un algorithme d'exploration sur ROS"
+            ,"desc" : "Création d'un ensemble de métrique objective pour l'évaluation d'algorithme d'exploration implémenté sur ROS"
+            ,"image" : "../image/projet/miniature/exploration.png"
+        }
+    ]
+}

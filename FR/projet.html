@@ -2,14 +2,14 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css" />
-        <title class="titre">lorem</title>
+        <link rel="stylesheet" href="../style.css" />
+        <title class="titre" id="titrePage">lorem</title>
     </head>
 
     <body>
-        <div id="Titre">
-            <h1 class="titre">lorem</h1>
-            <h1 id="retour"><a href="liste.html">Retour à la liste des projets</a></h1>
+        <div id="header">
+            <p class="titre"><strong>lorem</strong></p>
+            <p id="retour"><a href="liste.html">Retour à la liste des projets</a></p>
         </div>
         <div id="corps">
             <div id="menu">
@@ -30,13 +30,17 @@
                 </p>	
             </div>
         </div>
+        <div id="space">
 
+        </div>
         <div id="footer">
-            <a href="https://github.com/simlefebvre"><img id = "git" src="image/github.jpg" alt="logo github" /></a>
-            <a href="https://www.linkedin.com/in/simon-lefebvre-68245622b/"><img id="linkdin" src="image/logo-linkedin-noir.webp" alt="logo linkedin" /></a>
-            <a><img src="image/document.jpg"> </a>
+            <a href="https://github.com/simlefebvre"><img id = "git" src="../image/github.jpg" alt="logo github" class="nonDrapeau"/></a>
+            <a href="https://www.linkedin.com/in/simon-lefebvre-68245622b/"><img id="linkdin" src="../image/logo-linkedin-noir.webp" alt="logo linkedin"  class="nonDrapeau"/></a>
+            <a href="CV.pdf"><img src="../image/document.jpg" class="nonDrapeau"> </a>
+            <img id="drapeau" src="../image/drapeau/EN.jpg">
+
         </div>
         </body>
 
-<script src="codePageProjet.js"></script>
+<script src="code/codePageProjet.js"></script>
 </html>

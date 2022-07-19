@@ -1,12 +1,24 @@
 let dataProjet;
+
+document.getElementById('drapeau').addEventListener('click', function(e) {
+    window.open(window.location.href.replace("FR","EN"),'_self');
+});
+
+
 function initialisation(nomProjet){
     document.title = nomProjet;
     listElt = document.getElementsByClassName('titre');
     for (let elt of listElt) {
-        elt.innerHTML = nomProjet;
+        if(elt.id == "titrePage"){
+            elt.innerHTML = nomProjet;
+            elt.id = "MenuHome";
+        }
+        else{
+            elt.innerHTML = "<strong>" +nomProjet+"</strong>";
+        }
     }
     
-    fetch(`./${nomProjet}.json`)
+    fetch(`./json/${nomProjet}.json`)
     .then(function(res) {
         if (res.ok) {
         return res.json();
@@ -22,5 +34,14 @@ function initialisation(nomProjet){
         document.getElementById('explication').children[0].innerHTML = dataProjet.desc;
     });   
 }
+
 const queryString = location.search.substring(1);
-initialisation(queryString);
+if(!queryString.match(/^([a-zA-Z 0-9]+)$/)){
+    window.open('../404.html','_self');
+}else{
+    initialisation(queryString);
+}
+
+document.getElementById('MenuHome').addEventListener('click', function(e) {
+    window.open('./index.html','_self');
+});

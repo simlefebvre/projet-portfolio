@@ -1,0 +1,9 @@
+{
+    "nomDuProjet": "Project3",
+    "language" : "python",
+    "contexte" : "Personal",
+    "nombreParticipants" : "1",
+    "support" : "VSCode",
+    "date" : "01/01/2022",
+    "desc" : "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pulvinar lectus ac rhoncus porta. Donec placerat convallis ex, nec ornare neque aliquam et. Maecenas neque arcu, vulputate ut laoreet vel, laoreet vitae odio. Phasellus tristique dapibus nunc ut tincidunt. Nulla et bibendum nulla. Phasellus ex odio, lobortis quis augue vitae, tempor vehicula lacus. Sed ac finibus massa. Cras ipsum elit, pretium eu aliquam a, euismod at velit.</p>"
+}

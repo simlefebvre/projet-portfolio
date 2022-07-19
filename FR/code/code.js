@@ -1,6 +1,10 @@
+document.getElementById('drapeau').addEventListener('click', function(e) {
+    window.open(window.location.href.replace("FR","EN"),'_self');
+});
+
 
 function initialisation(){
-    fetch('./listeDesProjet.json')
+    fetch('./json/listeDesProjet.json')
     .then(function(res) {
         if (res.ok) {
         return res.json();
@@ -11,14 +15,17 @@ function initialisation(){
             let div = document.createElement('div');
             let divTitre = document.createElement('div');
             let divDesc = document.createElement('div');
-            let h3 = document.createElement('h3');
+            let p3 = document.createElement('p');
             let img = document.createElement('img');
             let p = document.createElement('p');
 
             div.id = projet.nom + '|div';
             divTitre.id = projet.nom + '|Titre';
             divDesc.id = projet.nom + '|Desc';
-            h3.id = projet.nom + '|h3';
+            p3.id = projet.nom + '|h3';
+
+            p3.className = 'TitreProjet';
+
             img.id = projet.nom + '|img';
             p.id = projet.nom + '|p';
 
@@ -28,13 +35,13 @@ function initialisation(){
             divTitre.className = 'titreProjet';
             divDesc.className = 'descProjet';
 
-            h3.innerHTML = projet.nom;
+            p3.innerHTML = projet.nom;
             img.src = projet.image;
             img.alt = `Une image représentant le ${projet.nom}`;
             img.className = 'imageProjet';
             p.innerHTML = projet.desc;
 
-            divTitre.appendChild(h3);
+            divTitre.appendChild(p3);
             divDesc.appendChild(img);
             divDesc.appendChild(p);
 
@@ -51,3 +58,7 @@ function initialisation(){
     }
     
 initialisation();
+
+document.getElementById('MenuHome').addEventListener('click', function(e) {
+    window.open('./index.html','_self');
+});

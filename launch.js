@@ -1,0 +1,1 @@
+window.open("./FR/index.html", "_self");
